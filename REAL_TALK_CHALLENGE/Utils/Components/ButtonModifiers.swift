@@ -23,17 +23,18 @@ struct SolidButtonModifier: ViewModifier {
 }
 
 struct OverlayButtonModifier: ViewModifier {
+    let paddingValue: CGFloat
     let cornerValue: CGFloat
     
     func body(content: Content) -> some View {
         content
             .font(.headline)
-            .foregroundColor(.black)
+            .foregroundColor(.white)
             .padding()
-            .padding(.horizontal, 90)
+            .padding(.horizontal, paddingValue)
             .overlay(
                 RoundedRectangle(cornerRadius: cornerValue)
-                    .stroke(Color(.systemOrange), lineWidth: 2)
+                    .stroke(Color(.white), lineWidth: 1)
             )
             .padding(5)
     }

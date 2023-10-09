@@ -17,9 +17,9 @@ struct LandingPage: View {
         
     var body: some View {
         NavigationStack {
-            ZStack() {
+            ZStack {
                 Color.black.ignoresSafeArea()
-                VStack(spacing: 50) {
+                VStack(spacing: 30) {
                     TabView(selection: $tabSelectedIndex) {
                         ImageCard(imageName: "Image1", text: image1Text)
                             .tag(0)
@@ -31,30 +31,37 @@ struct LandingPage: View {
                     
                     .tabViewStyle(PageTabViewStyle(indexDisplayMode: .automatic))
                     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
-                    .padding(.vertical, tabSelectedIndex == 2 ? 20 : 50)
+                    .padding(.top, tabSelectedIndex == 2 ? 5 : 30)
                     .modifier(PageIndicatorModifier())
                     
-                    if tabSelectedIndex == 2 {
-                        Button {
-                            
-                        } label: {
-                            Text("Continue")
-                                .modifier(SolidButtonModifier(paddingValue: 100, cornerValue: 10))
-                        }
-                    }
-                  
+                   
+                
                     
-                    HStack {
-                        Text("Already have an account? ")
-                            .foregroundStyle(.white)
-                        NavigationLink {
-                            LoginView()
-                                .navigationBarBackButtonHidden()
-                        } label: {
-                            Text("Log in")
+                    VStack(spacing: 20) {
+                        if tabSelectedIndex == 2 {
+                            NavigationLink {
+                                ProfileOnboardingView()
+                                    .navigationBarBackButtonHidden()
+                            } label: {
+                                Text("Continue")
+                                    .modifier(SolidButtonModifier(paddingValue: 100, cornerValue: 10))
+                            }
                         }
-                        .foregroundStyle(.orange)
+                        
+                        HStack {
+                            Text("Already have an account? ")
+                                .foregroundStyle(.white)
+                            NavigationLink {
+                                LoginView()
+                                    .navigationBarBackButtonHidden()
+                            } label: {
+                                Text("Log in")
+                            }
+                            .foregroundStyle(.orange)
+                        }
+                        .padding(.bottom, 50)
                     }
+                    Spacer()
                 }
                
             }

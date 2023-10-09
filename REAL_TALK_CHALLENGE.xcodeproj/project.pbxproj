@@ -20,6 +20,14 @@
 		D61FB3082AD1F6BD00C6DE39 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3072AD1F6BD00C6DE39 /* LoginView.swift */; };
 		D61FB30A2AD1F70500C6DE39 /* AuthInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3092AD1F70500C6DE39 /* AuthInputView.swift */; };
 		D61FB30C2AD1F72400C6DE39 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB30B2AD1F72400C6DE39 /* TextFieldModifier.swift */; };
+		D61FB3112AD3344700C6DE39 /* ProfileOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3102AD3344700C6DE39 /* ProfileOnboardingView.swift */; };
+		D61FB3132AD3345F00C6DE39 /* AddPushNotifsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3122AD3345F00C6DE39 /* AddPushNotifsView.swift */; };
+		D61FB3152AD3347500C6DE39 /* WelcomeOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3142AD3347500C6DE39 /* WelcomeOnboardingView.swift */; };
+		D61FB3172AD334AA00C6DE39 /* MovieGenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3162AD334AA00C6DE39 /* MovieGenreView.swift */; };
+		D61FB3192AD3389700C6DE39 /* GenreChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB3182AD3389700C6DE39 /* GenreChip.swift */; };
+		D61FB31B2AD47F5600C6DE39 /* SubjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB31A2AD47F5600C6DE39 /* SubjectView.swift */; };
+		D61FB31D2AD47F6D00C6DE39 /* SubjectChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB31C2AD47F6D00C6DE39 /* SubjectChip.swift */; };
+		D61FB31F2AD48F7600C6DE39 /* AgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61FB31E2AD48F7600C6DE39 /* AgreementView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,15 @@
 		D61FB3072AD1F6BD00C6DE39 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		D61FB3092AD1F70500C6DE39 /* AuthInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthInputView.swift; sourceTree = "<group>"; };
 		D61FB30B2AD1F72400C6DE39 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
+		D61FB3102AD3344700C6DE39 /* ProfileOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOnboardingView.swift; sourceTree = "<group>"; };
+		D61FB3122AD3345F00C6DE39 /* AddPushNotifsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPushNotifsView.swift; sourceTree = "<group>"; };
+		D61FB3142AD3347500C6DE39 /* WelcomeOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeOnboardingView.swift; sourceTree = "<group>"; };
+		D61FB3162AD334AA00C6DE39 /* MovieGenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGenreView.swift; sourceTree = "<group>"; };
+		D61FB3182AD3389700C6DE39 /* GenreChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreChip.swift; sourceTree = "<group>"; };
+		D61FB31A2AD47F5600C6DE39 /* SubjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectView.swift; sourceTree = "<group>"; };
+		D61FB31C2AD47F6D00C6DE39 /* SubjectChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectChip.swift; sourceTree = "<group>"; };
+		D61FB31E2AD48F7600C6DE39 /* AgreementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementView.swift; sourceTree = "<group>"; };
+		D61FB3202AD4A65300C6DE39 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,7 @@
 		D60387B72AD0946E0003C201 = {
 			isa = PBXGroup;
 			children = (
+				D61FB3202AD4A65300C6DE39 /* README.md */,
 				D60387C22AD0946E0003C201 /* REAL_TALK_CHALLENGE */,
 				D60387C12AD0946E0003C201 /* Products */,
 			);
@@ -91,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				D60387D92AD0950B0003C201 /* Authentication */,
+				D61FB30D2AD333F800C6DE39 /* OnBoarding */,
 				D60387D82AD095080003C201 /* Root */,
 				D60387D72AD095060003C201 /* Profile */,
 				D60387D62AD095030003C201 /* TabBar */,
@@ -171,6 +190,8 @@
 		D60387DC2AD097DC0003C201 /* Confidential */ = {
 			isa = PBXGroup;
 			children = (
+				D61FB31A2AD47F5600C6DE39 /* SubjectView.swift */,
+				D61FB31C2AD47F6D00C6DE39 /* SubjectChip.swift */,
 			);
 			path = Confidential;
 			sourceTree = "<group>";
@@ -254,6 +275,35 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D61FB30D2AD333F800C6DE39 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				D61FB30F2AD3342900C6DE39 /* View */,
+				D61FB30E2AD3342600C6DE39 /* ViewModel */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		D61FB30E2AD3342600C6DE39 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D61FB30F2AD3342900C6DE39 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D61FB3102AD3344700C6DE39 /* ProfileOnboardingView.swift */,
+				D61FB3122AD3345F00C6DE39 /* AddPushNotifsView.swift */,
+				D61FB3142AD3347500C6DE39 /* WelcomeOnboardingView.swift */,
+				D61FB3162AD334AA00C6DE39 /* MovieGenreView.swift */,
+				D61FB3182AD3389700C6DE39 /* GenreChip.swift */,
+				D61FB31E2AD48F7600C6DE39 /* AgreementView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -326,12 +376,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D61FB3042AD1F27200C6DE39 /* ButtonModifiers.swift in Sources */,
+				D61FB3172AD334AA00C6DE39 /* MovieGenreView.swift in Sources */,
 				D61FB3022AD1EF9D00C6DE39 /* PageIndicatorModifier.swift in Sources */,
 				D60387C62AD0946E0003C201 /* ContentView.swift in Sources */,
 				D61FB2F72AD09DF900C6DE39 /* LandingPage.swift in Sources */,
+				D61FB3152AD3347500C6DE39 /* WelcomeOnboardingView.swift in Sources */,
 				D61FB30A2AD1F70500C6DE39 /* AuthInputView.swift in Sources */,
+				D61FB31B2AD47F5600C6DE39 /* SubjectView.swift in Sources */,
+				D61FB3112AD3344700C6DE39 /* ProfileOnboardingView.swift in Sources */,
+				D61FB3132AD3345F00C6DE39 /* AddPushNotifsView.swift in Sources */,
 				D60387C42AD0946E0003C201 /* REAL_TALK_CHALLENGEApp.swift in Sources */,
+				D61FB31D2AD47F6D00C6DE39 /* SubjectChip.swift in Sources */,
 				D61FB30C2AD1F72400C6DE39 /* TextFieldModifier.swift in Sources */,
+				D61FB31F2AD48F7600C6DE39 /* AgreementView.swift in Sources */,
+				D61FB3192AD3389700C6DE39 /* GenreChip.swift in Sources */,
 				D61FB3062AD1F61F00C6DE39 /* OrientationLockModifier.swift in Sources */,
 				D61FB3082AD1F6BD00C6DE39 /* LoginView.swift in Sources */,
 				D61FB2FF2AD1E6F700C6DE39 /* ImageCard.swift in Sources */,

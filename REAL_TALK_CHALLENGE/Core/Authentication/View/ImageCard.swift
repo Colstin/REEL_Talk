@@ -15,9 +15,9 @@ struct ImageCard: View {
             Spacer()
             Image(imageName)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                //.aspectRatio(contentMode: .fit)
                 .cornerRadius(20)
-                .frame(width: 350, height: 330)
+                .frame(width: 350, height: 350)
             
             Text(text)
                 .multilineTextAlignment(.center)
@@ -31,5 +31,5 @@ struct ImageCard: View {
 }
 
 #Preview {
-    ImageCard(imageName: "Image1", text: "Welcom to REEL Talk, a community designed for true film and TV show fans")
+    ImageCard(imageName: "Image3", text: "Welcom to REEL Talk, a community designed for true film and TV show fans")
 }
