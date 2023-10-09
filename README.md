@@ -12,34 +12,34 @@
 
 ### Section 1: Splash View
 <div align="center">
-<img width="200"  title="Splash Screen" src="">
+<img width="200"  title="Splash Screen" src="https://github.com/Colstin/REEL_Talk/assets/96356901/b2d97238-4d06-446a-a674-1c709ea514b2">
 </div>
 
 
 ### Section 2: Welcome screens
 <div align="center">
-<img width="200"  title="Welcome" src="">
-<img width="200"  title="Welcome" src="">
-<img width="200"  title="Welcome" src="">
+<img width="200"  title="Welcome" src="https://github.com/Colstin/REEL_Talk/assets/96356901/7b2e42de-f67c-402b-8d32-f356f09d2e84">
+<img width="200"  title="Welcome" src="https://github.com/Colstin/REEL_Talk/assets/96356901/a53adc03-e08d-44d3-a1d4-fa08fae54099">
+<img width="200"  title="Welcome" src="https://github.com/Colstin/REEL_Talk/assets/96356901/ce3f6fac-16d7-4922-86c6-58566285480b">
 </div>
 
 
 ### Section 3: Pre Onboarding Screens
 <div align="center">
-<img width="200"  title="Profile" src="">
-<img width="200"  title="Notifications" src="">
-<img width="200"  title="Welcome" src="">
+<img width="200"  title="Profile" src="https://github.com/Colstin/REEL_Talk/assets/96356901/d9b80439-385f-4591-85d6-45073bc558f6"">
+<img width="200"  title="Notifications" src="https://github.com/Colstin/REEL_Talk/assets/96356901/94e51a08-6857-459f-bcbd-756f140651d3">
+<img width="200"  title="Welcome" src="https://github.com/Colstin/REEL_Talk/assets/96356901/e4ec86e3-4ad8-4884-aad5-cd6d9dc27cb2">
 
-<img width="200"  title="Genre" src="">
-<img width="200"  title="Genre" src="">
-<img width="200"  title="Agree" src="">
+<img width="200"  title="Genre" src="https://github.com/Colstin/REEL_Talk/assets/96356901/75c1de2f-fcc6-400b-8c78-9b6085626fb7">
+<img width="200"  title="Genre" src="https://github.com/Colstin/REEL_Talk/assets/96356901/8ffd1d57-ed16-429c-8177-c9615bd3e5e4">
+<img width="200"  title="Agree" src="https://github.com/Colstin/REEL_Talk/assets/96356901/ac74a0e2-c266-4d9a-8040-4418d467789f">
 </div>
 
 
 ### Section 4: BONUS: Login Screen
 <div align="center">
-<img width="200"  title="Login" src="">
-<img width="200"  title="Login" src="">
+<img width="200"  title="Login" src="https://github.com/Colstin/REEL_Talk/assets/96356901/93251579-2290-4e12-9745-c95bd384e852">
+<img width="200"  title="Login" src="https://github.com/Colstin/REEL_Talk/assets/96356901/9f99a4a8-1fe7-4057-b5ac-a3413b96723d">
 </div>
 
 
